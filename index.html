@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Foster A Pet</title>
+    <link href="style.css" rel="stylesheet"  type="text/css" />
+  </head>
+   <body>
+    <header>
+      <h1>Sign Up to Foster a Pet</h1>
+      <table>
+        
+
+        <thead>
+         <th colspan="4">Available Pets </th>
+         </thead>
+
+        <thead>
+          <td>Name</td> 
+            <td>Age</td>
+            <td>Breed</td>
+          <td>picture </td>
+        </thead>
+
+        
+
+        <tr> <!--the (<tr>) is Table Row, I think. Which allows the use of (<td>). Kind of like russian dolls-->
+          <td>Benny</td> <!--Took a while, but I discovered (<td>) is table data, data content in a single cell.-->
+          <td>2</td>
+          <td> <a href ="golden_retriever.html">Goldren Retriever</a></td> <!--just looking fo r a reason to create.--> 
+          <td><img src = "https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTc0MDk2MzYxNjM1OTgwODY2/what-you-should-know-about-owning-a-golden-retriever.jpg"width="75px" alt="Pic of goldren retriver dog."></td> 
+        </tr> <!--- I wanted to create more visual and links, so I inserted a link to a page that would market each pet seperately.--> 
+
+          <tr>
+            <td>Felix</td>
+            <td>5</td>
+            <td><a href = "organe_tabby.html">Organe Tabby</a></td>
+            <td><img src = "https://keepingpet.com/wp-content/uploads/elementor/thumbs/Orange-Tabby-Cats-pl67iy3ichhoagbfximvg7rk5wwj2j2dscaiquzmo8.jpg"width="75px" alt="picture of a Orange Tabby"</td>
+          </tr>
+
+        <tr>
+          <td>Cooper</colgroup>
+          <td>8</td>
+          <td><a href = "german_shep.html">German Shepherd</a></td>
+          <td><img src = "https://www.cesarsway.com/wp-content/uploads/2019/02/GermanShepherd-1024x679.jpeg"width="75px" alt="Picture of Germen Shepherd puppy"</td>
+        </tr>
+
+        <tr>
+          <td>Anna</td>
+          <td>3</td>
+          <td><a href = "long_hair.html">Long-Haired Dachshund</a></td> <!--- <tr> t a value-->
+          <td><img src= "https://www.akc.org/wp-content/uploads/2017/11/Longhaired-Dachshund-standing-outdoors.jpg"width="75px" alt="Picture of Long-haired Dachshund"</td>
+        </tr>
+          
+        </tr>
+      </table>
+<!--I thought about creating more rows and a about page, but I thought better more on and not over do it-->
+      <img src="assets/dog.png" alt="Cute Dog Looking Over Form" width="40%">
+    </header>
+     
+ <form>
+   
+    <label for ="name" name="name">Full Name:</label>
+    <input type="text"id="name" placeholder="Jane Doe"><!-- this is a very useful function to put name-->
+   
+   <label for ="dob">Date of Birth</label>
+   <input type="date"id="dob" name="name">
+   
+   <label for="email" name="Email">Email</label>
+   <input type="email" id="email"
+   placeholder="example@domain.com">
+   
+   <label for="pw">Password:</label>
+   <input type = "password" id="password" name="password">
+   
+   <label for="Pets_Number" name="num-pets">Number of pets
+   </label>
+   <input type="number"min="0"> <!---("min='0'") tells the website not to go into the neg-numbers-->
+
+   <h4> Have you ever fostered before</h4>
+   <label for="yes">
+   <input type="radio" id ="yes" name="prav-experence"> Yes<!--prav-experence tells the program user can only pick one-->
+   </label>
+   <label>
+   <input type="radio" id="no" name = "prav-experence">No </input>
+     </label>
+   <h4>Which of these apply to your home?</h4>
+   <label for = "apartment">Aprtment</label>
+   <input type="checkbox" id='apartment' name = 'apartment'>
+   <label for = "children">children</label>
+   <input type="checkbox" id = "children" name="children">
+   <label for="children">Yard</label>
+   <input type="checkbox" id= 'yard' name= 'yard'>
+
+<br<!---Page break here-->
+   
+   <label for="address">Address:</label><!-- practice-->
+   <input type="text" id="address" placeholder="street adress" name ="address">
+
+   <label for="state">State:</label>
+   <input type="state" id="state" placeholder="---" name="state>"
+
+     <label for="city">City:</label>
+   <input type="city" id='city' placeholder='---'name="city" name='city'>
+
+   <label for='Zipcode'>Zipcode</label>
+   <input type="zipcode" id="zipcode" placeholder='---'name="zipcode">
+
+      
+   
+   <input type= "submit" value = "Sign Up!">
+       
+  </form>
+  <img src = "https://imgscf.slidemembers.com/docs/1/1/341/premium_pet_care_service_marketing_presentation_ppt_340688.jpg"width30px>
+  </body>
+  <br>
+
+</html>
+  <hr>
+  <center>&copy;Aloha Pets Foster Care.,</center>
